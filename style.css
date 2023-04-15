@@ -5,22 +5,25 @@ body {
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
-  background-color: #eae2b7
-  
+  background-color: #eae2b7;
 }
-a:link{
-color:#d62828
-
-a:hover{
-color: #f77f00
-}
-
-
 
 /* Set the font family for any h1, h2, or h3 heading */
-h1,
-h2,
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+nav{
+  word-spacing: 10px}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
 h3 {
+ text-align: center;
+  font-size: 20px;
   font-family: "Playfair Display", Times, serif;
 }
 
@@ -43,18 +46,36 @@ div {
   width: 600px;
 }
 
-img { 
-  width: 800%;
-  max-width: 100px;
-  height: 100%;
- style = border-radius: %50;
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
 }
 
 hr {
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 /* Add your solution below */
 
+.image-circle {
+  border-radius: 50%;
+  border: 2px solid #003049;
 }
+
+header{
+  text-align: center;
 }
+
+footer{
+  text-align: center;
+}
+
+a:link{ color:#d62828
+      }
+
+a:hover { color: #f77f00}
+
+li {
+   list-style-position: center;
+   }
